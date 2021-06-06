@@ -6,24 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
     <div class="container">
         <div class="row">
+
         <div class="col-6">
+            <div class="card">
+                <div class="card-body">
             <h1> contato </h1>
 
             <form>
-                <div class="form">
+                <div class="forms">
                     <label for="nome">Nome:</label>
                     <input class="form-control" type="text" name="nome" id="nome" placeholder="Digite o seu nome...">
                 </div>
 
-                <div class="form">
-                    <label for="email">E-mail</label>
+                <div class="forms">
+                    <label for="email">E-mail:</label>
                     <input class="form-control" type="text" name="email" id="email" placeholder="Digite seu email...">
                 </div>
+                <div class="forms">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea class="form-control" type="text" name="mensagem" id="mensagem" placeholder="Deixe uma mensagem..."></textarea>
+                </div>
+                <div class="forms text-center">
+                    <button type="submit" class="btn btn-dark">Enviar</button>
+                </div>
+                <div class="alert alert-danger d-none"> preencha o campo XXXX</div>
             </form>
+                 </div>
+            </div>
         </div>
 
         <div class="col-6">
